@@ -4,8 +4,8 @@ import json
 output = []     #create output list for use later on
 
 def l33t():    #define the l33t function
-    vowels = ['a','e','h','i','o','s','u']     #list of encodable/decodable characters - vowels
-    l33tLetters = ['@','3','4','1','0','$','(_)']
+    vowels = ['a','e','h','i','l','o','s','t','u']     #list of encodable/decodable characters - vowels
+    l33tLetters = ['@','3','#','!','1','0','$','7','(_)']
     messageList = []
     newMessage = ''
     message = input('Enter text to be converted to l33tsp3@k (enter x to end program): ')      #prompt the user for input
