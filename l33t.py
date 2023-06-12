@@ -4,7 +4,7 @@ import json
 output = []     #create output list for use later on
 
 def l33t():    #define the l33t function
-    vowels = ['a','e','i','o','u']     #list of encodable/decodable characters - the alphabet'
+    vowels = ['a','e','i','o','u']     #list of encodable/decodable characters - vowels
     l33tLetters = ['@','3','1','0','(_)']
     messageList = []
     newMessage = ''
