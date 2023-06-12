@@ -1,4 +1,4 @@
-# l33t
+# 1337
  
 CSP1150 Project.
 Project is a text replacement program, which converts inputs into their '1337' version.
