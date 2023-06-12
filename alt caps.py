@@ -4,7 +4,8 @@ import json
 output = []     #create output list for use later on
 
 def l33t():    #define the l33t function
-    alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','v','w','x','y','z']     #list of encodable/decodable characters - the alphabet
+    vowels = ['a','e','i','o','u']     #list of encodable/decodable characters - the alphabet'
+    l33tLetters = ['@','3','1','0','(_)']
     messageList = []
     newMessage = ''
     message = input('Enter text to be converted to l33tsp3@k (enter x to end program): ')      #prompt the user for input
@@ -13,9 +14,9 @@ def l33t():    #define the l33t function
         messageList.append(character.lower())
 
     for letter in messageList:  #iterate through messageList
-        if letter in alphabet:  #if the letter is in our alphabet list, replace it with the character 13 positions away and add that new character to a string
-            index = alphabet.index(letter)
-            newMessage = newMessage + alphabet[index].upper()
+        if letter in vowels:  #if the letter is in our vowels list, replace it with the corresponding l33t letter and add that new character to a string
+            index = vowels.index(letter)
+            newMessage = newMessage + l33tLetters[index]
         else:                   #if the character isn't encodeable/decodeable, add it without encoding to the string
             newMessage = newMessage + letter
 
